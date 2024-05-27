@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #9d6eb6;/* Violeta suave */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenido ocupe al menos el 100% del alto de la ventana */
+}
+
+/* Estilos para el header */
+header {
+    background-color: #f4d03f; /* Amarillo */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 20px 0;
+    position: sticky; /* Hace que el header se mantenga pegado en su posición mientras se hace scroll */
+    top: 0; /* Fija el header en la parte superior */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    flex-direction: column; /* Para alinear los elementos verticalmente */
+}
+
+.company-name h1,
+.company-name {
+    margin-bottom: auto; /* Empuja el elemento hacia arriba para centrarlo verticalmente */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Ajusta el tamaño según el tamaño del logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+main {
+    flex: 1; /* El contenido principal ocupará todo el espacio restante */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    overflow-y: auto; /* Permite el desplazamiento vertical cuando el contenido es más grande que la pantalla */
+}
+
+#topbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+   
+   
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.bubble img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px; /* Espacio entre la imagen y el nombre */
+}
+
+.bubble p {
+    margin: 0;
+}
+
+
+footer {
+    background-color: #f4d03f; /* Amarillo */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0; /* Lo coloca al fondo de la pantalla */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+#btn-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f4d03f; /* Amarillo */
+    color: #333; /* Texto oscuro */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2000; /* Asegura que esté por encima de otros elementos */
+    animation: bounce 0.5s infinite alternate; /* Animación de rebote */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.highlight-content {
+    border-radius: 30px;
+    padding: 20px;
+    border: 2px solid transparent; /* Borde inicialmente transparente */
+    transition: border-color 0.3s, transform 0.3s; /* Transición suave para el borde y la transformación */
+    background-color:  #6a6b97;
+}
+
+.highlight-content:hover {
+    background-color: #5bce87; /* Color del borde al hacer hover */
+    border-radius: 30px;
+    transform: scale(1.05); /* Escalado del elemento al hacer hover */
+}
+
+#games {
+    background-color: #5bce87; /* Color de fondo para la sección de juegos */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+#games h3 {
+    text-align: center;
+}
+
+.games-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.game h4 {
+    margin-top: 0;
+}
+
+.game p {
+    margin-bottom: 10px;
+}
+
+.game a {
+    display: block;
+    background-color: #6c5ce7;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s, transform 0.3s; /* Transición suave para el borde y la transformación */
+}
+
+.game a:hover {
+    background-color: #f4d03f;
+    transform: scale(1.05); /* Escalado del elemento al hacer hover */
+}
+.section-title {
+    background-color: #f4d03f; /* Amarillo */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.orange-text {
+    color: #f39c12; /* Naranja */
+    background-color: #dbb577;
+}
+
+.black-text {
+    background-color:#dbb577;
+    color: #000000; /* Negro */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.highlight-content {
+    border-radius: 30px;
+    padding: 20px;
+ 
+    transition: border-color 0.3s, transform 0.3s; /* Transición suave para el borde y la transformación */
+    
+}
+
+.highlight-content:hover {
+    border-color: #f4d03f; /* Naranja más claro al hacer hover */
+}
