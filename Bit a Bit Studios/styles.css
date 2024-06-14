@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:  #9d6eb6;/* Violeta suave */
+    background-color:  #646464;/* Violeta suave */
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Asegura que el contenido ocupe al menos el 100% del alto de la ventana */
@@ -10,8 +10,8 @@ body {
 
 /* Estilos para el header */
 header {
-    background-color: #f4d03f; /* Amarillo */
-    color: #333; /* Texto oscuro */
+    background-color: #080808; /* Amarillo */
+    color: #ffffff; /* Texto oscuro */
     text-align: center;
     padding: 20px 0;
     position: sticky; /* Hace que el header se mantenga pegado en su posición mientras se hace scroll */
@@ -115,17 +115,21 @@ footer {
     padding: 20px;
     border: 2px solid transparent; /* Borde inicialmente transparente */
     transition: border-color 0.3s, transform 0.3s; /* Transición suave para el borde y la transformación */
-    background-color:  #6a6b97;
+    background-color:  #c2c3d452;
+    
+}
+.textoxd{
+    color: #fff;
 }
 
 .highlight-content:hover {
-    background-color: #5bce87; /* Color del borde al hacer hover */
+    background-color: #353333; /* Color del borde al hacer hover */
     border-radius: 30px;
     transform: scale(1.05); /* Escalado del elemento al hacer hover */
 }
 
 #games {
-    background-color: #5bce87; /* Color de fondo para la sección de juegos */
+    background-color: #3868ec; /* Color de fondo para la sección de juegos */
     padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
@@ -160,7 +164,7 @@ footer {
 
 .game a {
     display: block;
-    background-color: #6c5ce7;
+    background-color: #4f4697;
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
@@ -169,11 +173,11 @@ footer {
 }
 
 .game a:hover {
-    background-color: #f4d03f;
+    background-color: #bd9700;
     transform: scale(1.05); /* Escalado del elemento al hacer hover */
 }
 .section-title {
-    background-color: #f4d03f; /* Amarillo */
+    background-color: #3868ec; /* Amarillo */
     color: #333; /* Texto oscuro */
     text-align: center;
     padding: 10px 0;
@@ -199,5 +203,5 @@ footer {
 }
 
 .highlight-content:hover {
-    border-color: #f4d03f; /* Naranja más claro al hacer hover */
+    border-color: #552fdd; /* Naranja más claro al hacer hover */
 }
