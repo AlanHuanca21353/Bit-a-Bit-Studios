@@ -76,8 +76,8 @@ main {
 
 
 footer {
-    background-color: #f4d03f; /* Amarillo */
-    color: #333; /* Texto oscuro */
+    background-color: #000000; /* Amarillo */
+    color: #ffffff; /* Texto oscuro */
     text-align: center;
     padding: 10px 0;
     bottom: 0; /* Lo coloca al fondo de la pantalla */
@@ -89,8 +89,8 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #f4d03f; /* Amarillo */
-    color: #333; /* Texto oscuro */
+    background-color: #3868ec; /* Amarillo */
+    color: #ffffff; /* Texto oscuro */
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -189,7 +189,7 @@ footer {
 }
 
 .black-text {
-    background-color:#dbb577;
+    background-color:#779adb;
     color: #000000; /* Negro */
     font-weight: bold; /* Texto en negrita */
 }
