@@ -13,7 +13,7 @@ header {
     background-color: #080808; /* Amarillo */
     color: #ffffff; /* Texto oscuro */
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     position: sticky; /* Hace que el header se mantenga pegado en su posición mientras se hace scroll */
     top: 0; /* Fija el header en la parte superior */
     z-index: 1000; /* Asegura que esté por encima del contenido */
@@ -22,8 +22,18 @@ header {
     align-items: center; /* Alinea verticalmente los elementos */
     flex-direction: column; /* Para alinear los elementos verticalmente */
 }
+.navbar-brand{
+    float: right;
+    margin-right: 1000px;
+    padding-top: 10px;
+    height: 30px;
+}
+.fond{
+  height: 60vh !important;  
+  background: url(integrantes/fondo_bosque.png) no-repeat center;
+  background-size: cover;
+}
 
-.company-name h1,
 .company-name {
     margin-bottom: auto; /* Empuja el elemento hacia arriba para centrarlo verticalmente */
 }
@@ -50,7 +60,7 @@ main {
 #topbar {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 100px 0;
    
    
 }
