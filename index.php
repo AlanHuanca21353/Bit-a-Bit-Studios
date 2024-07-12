@@ -24,7 +24,7 @@
         <div id="topbar">
             <div class="bubble">
                 <img src="/integrantes/demian.jfif" alt="Integrante 1">
-                <p>Demina</p>
+                <p>Demian</p>
                 <p1>tester y diseñador</p1>
             </div>
             <div class="bubble">
