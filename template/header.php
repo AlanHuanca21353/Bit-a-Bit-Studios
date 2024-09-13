@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juegos</title>
-    <link rel="stylesheet" href="../Seccion Juego/CSS/bootstrap.min.css" class="style">
-    <link rel="stylesheet" href="../Seccion Juego/CSS/styles.css" class="style">
+    <link rel="stylesheet" href="../Bit-a-Bit-Studios/CSS/bootstrap.min.css" class="style">
+    <link rel="stylesheet" href="../Bit-a-Bit-Studios/CSS/styles.css" class="style">
 </head>
 <body>
 

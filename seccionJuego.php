@@ -22,7 +22,7 @@
         ¡Ayuda a nuez en esta nueva aventura!
       </p>
       <div class="card mb-3 rounded-5">
-  <img class="rounded-5" src="../Seccion Juego/img/fondo_bosque.png" class="card-img-top" alt="..." >
+  <img class="rounded-5" src="../Bit-a-Bit-Studios/img/fondo_bosque.png" class="card-img-top" alt="..." >
 </div>
   <div class="card-body">
 
