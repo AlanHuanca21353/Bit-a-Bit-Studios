@@ -15,8 +15,8 @@
 
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../Seccion juego\img\logo_transparente_blanco_2.png" alt="logo"width="30" height="35">
+    <a class="navbar-brand" href="../Bit-a-Bit-Studios/index.php">
+      <img src="../Bit-a-Bit-Studios\img\logo_transparente_blanco_2.png" alt="logo"width="30" height="35">
     BIT A BIT STUDIOS
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,12 +25,12 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Juegos
+          <a class="nav-link active" href="../Bit-a-Bit-Studios/seccionJuego.php">Juegos
           
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Sobre Nosotros
+          <a class="nav-link active" href="../Bit-a-Bit-Studios/nosotros.php">Sobre Nosotros
          
           </a>
         </li>
