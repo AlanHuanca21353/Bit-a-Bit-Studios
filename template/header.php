@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juegos</title>
+    <title>Bit a Bit Studios</title>
     <link rel="stylesheet" href="../Bit-a-Bit-Studios/CSS/bootstrap.min.css" class="style">
     <link rel="stylesheet" href="../Bit-a-Bit-Studios/CSS/styles.css" class="style">
 </head>
@@ -29,11 +29,7 @@
           
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../Bit-a-Bit-Studios/nosotros.php">Sobre Nosotros
-         
-          </a>
-        </li>
+       
        
       
       </ul>

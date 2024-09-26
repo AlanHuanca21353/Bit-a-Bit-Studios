@@ -27,6 +27,8 @@
 </div>
   <div class="card-body">
 
+
+
       <h2>¿Cómo descargarlo y jugar?</h2>
 
   
