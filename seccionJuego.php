@@ -23,22 +23,14 @@
       </p>
       <div class="card mb-3 rounded-5">
   <img class="rounded-5" src="../Bit-a-Bit-Studios/img/fondo_bosque.png" class="card-img-top" alt="..." >
+
 </div>
   <div class="card-body">
 
-  <h2>  ¿Cómo descargarlo y jugar?  <button class="btn btn-lg rounded-5 p-3" type="button" style="background-color: #2D14EE; color: #ffffff; margin-left: 499px">
-        Descargar
-      </button>
-</h2>
+      <h2>¿Cómo descargarlo y jugar?</h2>
+
+  
 </div>
-
-
-
-
-
-
-
-
 
 
 <div class="container2" >
@@ -54,6 +46,10 @@
     <div class="card-body">
       <h5 class="card-title" >Abir el instalador</h5>
       <p class="card-text">Pulsa el boton "Descargar"</p>
+      <button class="btn btn-lg rounded-5 p-3" type="button" style="background-color: #2D14EE; color: #ffffff; ">
+        Descargar
+      </button>
+
      
     </div>
   </div>
