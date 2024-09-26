@@ -1,6 +1,7 @@
 <?php 
   include("template/header.php");
 ?>
+
 <div class="jumbotron jumbotron-fluid p-4 mb-4">
     <div class="container">
         <h1 class="display-3">Sobre nosotros</h1>
@@ -8,47 +9,58 @@
         <hr class="my-2">
         <h3>Los integrantes somos:</h3>
        
+
+        <br>
+
+
         </div>
+    
 
-<div class="card-groups" style="justify-content: space-around;">
-
-
-<div class="card" style="width: 18rem; p-4 mb-4">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Patricio Zapata</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary"></a>
-  </div>
-</div>
-<div class="card" style="width: 18rem; p-4 mb-4">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Demián Maldonado</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary"></a>
-  </div>
-</div>
-<div class="card" style="width: 18rem; p-4 mb-4" >
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Alan Huanca</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary"></a>
-  </div>
-</div>
-<div class="card" style="width: 18rem; p-4 mb-4">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Marco Mirabal</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary"></a>
-  </div>
-</div>
-
-
-</div>
+ 
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+         <!--   <img class="card-img-top" src="holder.js/100x180/" alt="Title" />  -->
+              <div class="card-body">
+                <h3 class="card-title">Alan Huanca</h3>
+                <p class="card-text">Desarrollador y Scrum Master</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+           <!-- <img class="card-img-top" src="holder.js/100x180/" alt="Title" />  -->
+              <div class="card-body">
+                <h3 class="card-title">Patricio Zapata</h3>
+                <p class="card-text">Desarrollador</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+           <!-- <img class="card-img-top" src="holder.js/100x180/" alt="Title" />  -->
+              <div class="card-body">
+                <h3 class="card-title">Demian Maldonado</h3>
+                <p class="card-text">Desarrollador y Tester</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+            <!-- <img class="card-img-top" src="holder.js/100x180/" alt="Title" /> -->
+              <div class="card-body">
+                <h3 class="card-title">Marco Mirabal</h3>
+                <p class="card-text">Desarrollador</p>
+              </div>
+            </div>
+          </div>
+        </div>
         
+        
+
+
+
+
     </div>
 
 <?php
