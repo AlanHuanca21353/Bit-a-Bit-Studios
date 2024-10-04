@@ -1,26 +1,127 @@
 <?php include("../template/header.php"); ?>
 
+<?php
+ 
+ $txtIDBit=(isset($_POST['txtIDBit']))?$_POST['txtIDBit']:"";
+ $txtNombreBit=(isset($_POST['txtNombreBit']))?$_POST['txtNombreBit']:"";
+ $txtImagenBit=(isset($_FILES['txtImagenBit']['name']))?$_FILES['txtImagenBit']['name']:"";
+ $accionBit=(isset($_POST['accionBit']))?$_POST['accionBit']:"";
+
+
+ echo $txtIDBit."<br/>";
+ echo $txtNombreBit."<br/>";
+ echo $txtImagenBit."<br/>";
+ echo $accionBit."<br/>";
+
+
+
+ $host="localhost";
+    $bd="bit-a-bit-studios";
+    $usuario="root";
+    $contrasenia="";
+
+
+    try {
+        
+        $conexion=new PDO("mysql:host=$host;dbname=$bd"); 
+        
+        
+        
+        
+        /*me quedé acá el viernes 4/10*/ 
+
+
+
+
+
+
+        
+    } catch (\Throwable $th) {
+        //throw $th;
+    }
+
+
+
+
+
+ switch($accionBit){
+
+        case "Agregar":
+            echo "Presionado botón agregar";
+            break;
+        
+            case "Modificar":
+            echo "Presionado botón modificar";
+             break;
+
+
+            case "Cancelar":
+            echo "Presionado botón cancelar";
+            break;
+
+ }
+
+?>
+
+
+
+
 <div class="col-md-5">
-    Formulario de agregar contenido (bit a bit)
- <form>
-
- <div class = "form-group">
- <label for="txtIDbit-a-bit">ID</label>
- <input type="text" class="form-control" name="txtIDbit-a-bit" id="txtIDbit-a-bit" placeholder="ID">
- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
- </div>
-
- <div class = "form-group">
- <label for="txtIDbit-a-bit">ID</label>
- <input type="text" class="form-control" name="txtIDbit-a-bit" id="txtIDbit-a-bit" placeholder="ID">
- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
- </div>
-
  
 
- <button type="submit" class="btn btn-primary">Sign In</button>
+    <div class="card">
+        <div class="card-header">
+            Datos de Bit-a-Bit
+        </div>
 
- </form>
+        <div class="card-body">
+         
+       
+
+        <form method="POST" enctype="multipart/form-data">
+
+<div class = "form-group">
+<label for="txtIDBit">ID:</label>
+<input type="text" class="form-control" name="txtIDBit" id="txtIDBit" placeholder="ID">
+
+</div>
+
+<br>
+
+<div class = "form-group">
+<label for="txtNombreBit">Nombre:</label>
+<input type="text" class="form-control" name="txtNombreBit" id="txtNombreBit" placeholder="Nombre del dato en Bit-a-Bit">
+
+</div>
+
+<br>
+
+<div class = "form-group">
+<label for="txtImagenBit">Imagen:</label>
+<input type="file" class="form-control" name="txtImagenBit" id="txtImagenBit" placeholder="Nombre del dato en Bit-a-Bit">
+
+</div>
+<br>
+
+
+
+
+
+   <div class="btn-group" role="group" aria-label="">
+       <button type="sumbit" name="accionBit" value="Agregar" class="btn btn-success">Agregar</button>
+       <button type="sumbit" name="accionBit" value="Modificar" class="btn btn-warning">Modificar</button>
+       <button type="sumbit" name="accionBit" value="Cancelar" class="btn btn-info">Cancelar</button>
+   </div>
+
+
+</form>
+     
+        </div>
+
+    </div>
+
+
+   
  
  
 
@@ -29,7 +130,29 @@
 
 <div class="col-md-7">
     
-    tabla de datos(mostrar los datos del contenido como sobre nosotros, info de la empresa, etc)
+  
+
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>2</td>
+                <td>Hola como estas</td>
+                <td>imagen.jpg</td>
+                <td>Seleccionar | Borrar</td>
+            </tr>
+         
+        </tbody>
+    </table>
 
 </div>
 
