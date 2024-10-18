@@ -23,21 +23,18 @@
 
     try {
         
-        $conexion=new PDO("mysql:host=$host;dbname=$bd"); 
+        $conexion=new PDO("mysql:host=$host;dbname=$bd", $usuario, $contrasenia); 
+        if($conexion){
+            echo "Conectado a sistema";
+        }
+
+        /*me quedé acá el viernes 4/10
         
-        
-        
-        
-        /*me quedé acá el viernes 4/10*/ 
+        18/10: Repasar el video, me salteé varias cosas de la base de datos, tengo que seguir el video al pie de la letra*/ 
 
 
-
-
-
-
-        
-    } catch (\Throwable $th) {
-        //throw $th;
+    } catch ( Exception $ex) {
+        echo $ex -> getMessage();
     }
 
 
