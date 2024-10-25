@@ -5,19 +5,12 @@
 
   $txtIDJuego=(isset($_POST['txtIDJuego']))?$_POST['txtIDJuego']:"";
   $txtNombreJuego=(isset($_POST['txtNombreJuego']))?$_POST['txtNombreJuego']:"";
+  $txtDescJuego=(isset($_POST['txtDescJuego']))?$_POST['txtDescJuego']:"";
   $txtImagenJuego=(isset($_FILES['txtImagenJuego']['name']))?$_FILES['txtImagenJuego']['name']:"";
   $accionJuego=(isset($_POST['accionJuego']))?$_POST['accionJuego']:"";
  
  
-  echo $txtIDJuego."<br/>";
-  echo $txtNombreJuego."<br/>";
-  echo $txtImagenJuego."<br/>";
-  echo $accionJuego."<br/>";
- 
-
-   
-
-
+  
   switch($accionJuego){
 
     case "Agregar":
@@ -67,7 +60,7 @@
 
 <div class = "form-group">
 <label for="txtNombreJuego">Nombre:</label>
-<input type="text" class="form-control" name="txtNombreJuego" id="txtNombreJuego"  placeholder="Nombre del dato en Juegos">
+<input type="text" class="form-control" name="txtNombreJuego" id="txtNombreJuego"  placeholder="Nombre del dato en Juegos" autofocus>
 
 </div>
 
@@ -75,11 +68,20 @@
 
 <div class = "form-group">
  <label for="txtImagenJuego">Imagen:</label>
- <input type="file" class="form-control" name="txtImagenJuego" id="txtImagenJuego" placeholder="Nombre del dato en Bit-a-Bit">
+ <input type="file" class="form-control" name="txtImagenJuego" id="txtImagenJuego" placeholder="Nombre del dato en Juegos">
 
  </div>
 
 <br>
+
+<div class = "form-group">
+<label for="txtDescJuego">Descripción</label>
+<textarea class="form-control" name="txtDescJuego"id="txtDescJuego" rows="3" style="height: 17px;" placeholder="Descripción del dato en Juegos"></textarea>
+
+</div>
+
+<br>
+
 
 
 
