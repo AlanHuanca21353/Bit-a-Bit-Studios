@@ -2,36 +2,8 @@
 
 <?php
   
-
-  $txtIDJuego=(isset($_POST['txtIDJuego']))?$_POST['txtIDJuego']:"";
-  $txtNombreJuego=(isset($_POST['txtNombreJuego']))?$_POST['txtNombreJuego']:"";
-  $txtDescJuego=(isset($_POST['txtDescJuego']))?$_POST['txtDescJuego']:"";
-  $txtImagenJuego=(isset($_FILES['txtImagenJuego']['name']))?$_FILES['txtImagenJuego']['name']:"";
-  $accionJuego=(isset($_POST['accionJuego']))?$_POST['accionJuego']:"";
- 
  
   
-  switch($accionJuego){
-
-    case "Agregar":
-        echo "Presionado botón agregar";
-        break;
-    
-        case "Modificar":
-        echo "Presionado botón modificar";
-         break;
-
-
-        case "Cancelar":
-        echo "Presionado botón cancelar";
-        break;
-
-
-        }
-
-
-
-
 ?>
 
 

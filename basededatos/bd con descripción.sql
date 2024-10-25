@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-10-2024 a las 15:33:48
+-- Tiempo de generación: 25-10-2024 a las 15:55:14
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -24,13 +24,14 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `bit-a-bit`
+-- Estructura de tabla para la tabla `home`
 --
 
-CREATE TABLE `bit-a-bit` (
+CREATE TABLE `home` (
   `ID_Bit-a-Bit` int(11) NOT NULL,
   `NombreBit` varchar(1000) NOT NULL,
-  `ImagenBit` varchar(1000) NOT NULL
+  `ImagenBit` varchar(1000) NOT NULL,
+  `DescBit` varchar(1024) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -42,7 +43,8 @@ CREATE TABLE `bit-a-bit` (
 CREATE TABLE `juegos` (
   `ID_Juego` int(11) NOT NULL,
   `NombreJuego` varchar(1000) NOT NULL,
-  `ImagenJuego` varchar(1000) NOT NULL
+  `ImagenJuego` varchar(1000) NOT NULL,
+  `DescJuego` varchar(1024) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -50,9 +52,9 @@ CREATE TABLE `juegos` (
 --
 
 --
--- Indices de la tabla `bit-a-bit`
+-- Indices de la tabla `home`
 --
-ALTER TABLE `bit-a-bit`
+ALTER TABLE `home`
   ADD PRIMARY KEY (`ID_Bit-a-Bit`);
 
 --
@@ -66,9 +68,9 @@ ALTER TABLE `juegos`
 --
 
 --
--- AUTO_INCREMENT de la tabla `bit-a-bit`
+-- AUTO_INCREMENT de la tabla `home`
 --
-ALTER TABLE `bit-a-bit`
+ALTER TABLE `home`
   MODIFY `ID_Bit-a-Bit` int(11) NOT NULL AUTO_INCREMENT;
 
 --

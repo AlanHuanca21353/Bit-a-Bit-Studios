@@ -9,55 +9,7 @@
  $accionBit=(isset($_POST['accionBit']))?$_POST['accionBit']:"";
 
 
- echo $txtIDBit."<br/>";
- echo $txtNombreBit."<br/>";
- echo $txtDescBit."<br/>";
- echo $txtImagenBit."<br/>";
- echo $accionBit."<br/>";
 
-
-
-
-
-    try {
-        
-        $conexion=new PDO("mysql:host=$host;dbname=$bd", $usuario, $contrasenia); 
-        if($conexion){
-            echo "Conectado a sistema";
-        }
-
-        /*me quedé acá el viernes 4/10
-        
-        18/10: Repasar el video, me salteé varias cosas de la base de datos, tengo que seguir el video al pie de la letra*/ 
-
-
-    } catch ( Exception $ex) {
-
-        echo $ex -> getMessage();
-    }
-
-
-
-
-
- switch($accionBit){
-
-        case "Agregar":
-
-            $sentenciaSQL= $conexion ->prepare("");
-            echo "Presionado botón agregar";
-            break;
-        
-            case "Modificar":
-            echo "Presionado botón modificar";
-             break;
-
-
-            case "Cancelar":
-            echo "Presionado botón cancelar";
-            break;
-
- }
 
 ?>
 
