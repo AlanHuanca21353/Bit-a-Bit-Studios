@@ -5,7 +5,28 @@
 <div class="jumbotron jumbotron-fluid p-4 mb-4">
     <div class="container">
         <h1 class="display-5">¿Qué somos?</h1>
-        <p class="lead">Somos una empresa desarrolladora de videojuegos en 2D.</p>
+        <p3 class="lead">Somos una empresa desarrolladora de videojuegos pixelart en 2D.</p3>
+       
+        <br>
+        <br>
+        <br>
+        
+          <h1 class="display-6 ">¿Qué ofrecemos?</h1>
+          <br>
+          <p class="col-md-8 fs-4">
+           Estamos desarrollando nuestro primer videojuego: <i class="fas fa-squirrel">"Surviving Squirrel". </i>Un plataformero del tipo "Run and Gun" o "corre y dispara" como el juego
+           <i class="far fa-squirrel">Contra</i> creado por Konami para máquinas Arcade y más tarde licenciado por Nintendo para la NES. <br>
+           <br>
+           Se trata de  Nuez, una ardilla que vivía en su bosque hasta que una malvada bruja interrumpe la tranquilidad del lugar, maldiciendo a todos los animales del bosque, excepto por 
+           nuestra ardilla. <br> Sin alternativas, la ardilla decide escapar del bosque derrotando a cualquier amenaza que se cruce en su camino.
+           <br>
+           <br>
+          </p>
+          
+      
+
+
+
         <hr class="my-2">
         <h3>Los integrantes somos:</h3>
        
@@ -17,7 +38,7 @@
     
 
  
-        <div class="row">
+        <div class="row" >
           <div class="col-3">
             <div class="card">
          <!--   <img class="card-img-top" src="holder.js/100x180/" alt="Title" />  -->
