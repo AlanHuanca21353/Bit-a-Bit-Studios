@@ -2,8 +2,8 @@
   include("template/header.php");
 ?>
 
-<div class="jumbotron jumbotron-fluid p-4 mb-4">
-    <div class="container">
+<div class="jumbotron jumbotron-fluid p-4 ">
+  <div class="container">
         <h1 class="display-5">¿Qué somos?</h1>
         <p3 class="lead">Somos una empresa desarrolladora de videojuegos pixelart en 2D.</p3>
        
@@ -13,17 +13,31 @@
         
           <h1 class="display-6 ">¿Qué ofrecemos?</h1>
           <br>
-          <p class="col-md-8 fs-4">
+
+
+    <div class="col-md-6">
+      
+    
+
+          <p class="fs-4">
            Estamos desarrollando nuestro primer videojuego: <i class="fas fa-squirrel">"Surviving Squirrel". </i>Un plataformero del tipo "Run and Gun" o "corre y dispara" como el juego
-           <i class="far fa-squirrel">Contra</i> creado por Konami para máquinas Arcade y más tarde licenciado por Nintendo para la NES. <br>
+           <i class="far fa-squirrel">Contra</i> creado por Konami para máquinas Arcade y más tarde licenciado por Nintendo para la NES.</p> <br>
+
+           <img src="img/contra-logo.png" class="img-fluid" alt="...">
+           
+    </div>
+
+    <div class="col-md-6">
+            
+          <p class=" fs-4">
            <br>
            Se trata de  Nuez, una ardilla que vivía en su bosque hasta que una malvada bruja interrumpe la tranquilidad del lugar, maldiciendo a todos los animales del bosque, excepto por 
            nuestra ardilla. <br> Sin alternativas, la ardilla decide escapar del bosque derrotando a cualquier amenaza que se cruce en su camino.
            <br>
            <br>
-          </p>
-          
-      
+
+    </div>
+
 
 
 
@@ -32,12 +46,18 @@
        
 
         <br>
-
-
-        </div>
     
 
+  </div>
+
+</div>
+
+  <br>
  
+
+
+  <div class="container">
+
         <div class="row" >
           <div class="col-3">
             <div class="card">
@@ -77,13 +97,13 @@
           </div>
         </div>
         
-        
+        </div>
 
-
+        <br><br><br>
 
 
     </div>
-
+</div>
 <?php
   include("template/footer.php");
 ?>
