@@ -21,9 +21,9 @@
       <p class="col-md-8 fs-2">
         ¡Ayuda a nuez en esta nueva aventura!
       </p>
-      <div class="card mb-3 rounded-5">
-  <img class="rounded-5" src="../Bit-a-Bit-Studios/img/fondo_bosque.png" class="card-img-top" alt="..." >
-
+      <div class="card mb-4 rounded-5">
+  <img class="rounded-5" src="../Bit-a-Bit-Studios/img/portada-juego.png" class="card-img-top" style="" alt="..." >
+  
 </div>
   <div class="card-body">
 

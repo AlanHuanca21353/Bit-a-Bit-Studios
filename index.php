@@ -15,28 +15,48 @@
           <br>
 
 
-    <div class="col-md-6">
+
+        
+
+
+
+
+
+
+    <div class="col-md-12">
       
     
+    <div class="clearfix">
+    <img src="img/contra-logo.png" class="col-md-3 float-md-end mb-3 ms-md-3"  alt="...">
 
-          <p class="fs-4">
+          <p class="fs-3">
            Estamos desarrollando nuestro primer videojuego: <i class="fas fa-squirrel">"Surviving Squirrel". </i>Un plataformero del tipo "Run and Gun" o "corre y dispara" como el juego
-           <i class="far fa-squirrel">Contra</i> creado por Konami para máquinas Arcade y más tarde licenciado por Nintendo para la NES.</p> <br>
-
-           <img src="img/contra-logo.png" class="img-fluid" alt="...">
-           
-    </div>
-
-    <div class="col-md-6">
-            
-          <p class=" fs-4">
+           <i class="far fa-squirrel">Contra</i> creado por Konami para máquinas Arcade y más tarde licenciado por Nintendo para la NES.</p>
            <br>
+           <br>
+            
+
+   <div class="clearfix">
+   <img src="img/ardilla-auch.png" class="col-md-2 float-md-start mb-3 ms-md-3" alt="..." >
+
+           <p class="fs-3">
            Se trata de  Nuez, una ardilla que vivía en su bosque hasta que una malvada bruja interrumpe la tranquilidad del lugar, maldiciendo a todos los animales del bosque, excepto por 
            nuestra ardilla. <br> Sin alternativas, la ardilla decide escapar del bosque derrotando a cualquier amenaza que se cruce en su camino.
-           <br>
-           <br>
+           
 
-    </div>
+           </p> 
+           
+           <div class="clearfix">
+           <img src="img/rata-auch.png" class="col-md-1 float-md-end mb-3 ms-md-3"  alt="...">
+          </div>
+
+        
+
+         
+           
+   
+
+   
 
 
 
