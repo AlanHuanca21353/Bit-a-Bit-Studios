@@ -48,8 +48,8 @@
     <div class="card-body">
       <h5 class="card-title" >Abir el instalador</h5>
       <p class="card-text">Pulsa el boton "Descargar"</p>
-      <button class="btn btn-lg rounded-5 p-3" type="button" style="background-color: #2D14EE; color: #ffffff; ">
-        Descargar
+      <button class="btn btn-lg rounded-5 p-3" type="sumbit" style="background-color: #2D14EE; color: #ffffff; "><a href="https://github.com/AlanHuanca21353/SurvSquirrel/tree/main/Surviving%20Squirrel/desktop/build/libs" style="color: #fff; text-decoration: none;">Descargar</a>
+        
       </button>
 
      
